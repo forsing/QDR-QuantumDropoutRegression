@@ -24,7 +24,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -132,7 +132,7 @@ print()
 """
 Quantum Dropout Regression (QDR) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     2     9    18    22    25    30    36
+0     2     9     x     y     z    30    36
 """
 
 """
@@ -155,7 +155,7 @@ Predicted Combination (Quantum Dropout Regression)
 By applying stochastic regularization 
 to a deep quantum architecture, 
 the model generated the following combination:
-2     9    18    22    25    30    36
+2     9     x     y     z    30    36
 
 Regularization for Deep QML: 
 As we move toward deeper quantum circuits to capture complex 
@@ -181,32 +181,4 @@ across the different lottery numbers.
 The code for Quantum Dropout Regression has been verified via dry run and is ready for you. 
 This adds a critical layer of architectural maturity 
 and regularization to your quantum analysis framework.
-"""
-
-"""
-VQC 
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-QDR 
-QGPR 
-QTL 
-QELM
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
 """
